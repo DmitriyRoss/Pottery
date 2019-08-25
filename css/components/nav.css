@@ -1,0 +1,19 @@
+.nav {
+    font-family: brandon-grotesque, sans-serif;
+font-style: normal;
+font-weight: 400;
+
+
+}
+.nav-item {
+font-size: 20px;
+line-height: 29px;
+color: #ffffff;
+cursor: pointer;
+padding-right: 40px;
+  
+}
+
+.nav-item:last-child {
+    padding-right: 0;
+}

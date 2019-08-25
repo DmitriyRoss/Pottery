@@ -1,0 +1,23 @@
+.grid {
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.grid-spacebetween {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid > * {
+  padding: 10px;
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 30%;
+}

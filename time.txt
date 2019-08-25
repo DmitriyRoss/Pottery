@@ -1,0 +1,3 @@
+header=1h
+hero=1.5h
+techniques=1.5h
