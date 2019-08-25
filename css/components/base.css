@@ -5,7 +5,7 @@
 html {
   font-size: 18px;
   font-weight: 400;
-  color:#000000;
+  color: #000000;
   line-height: 1.5;
   font-family: 'Roboto';
 }
@@ -22,28 +22,46 @@ html {
   padding: 0 15px;
 }
 
-p, ul, ol, figure {
+p,
+ul,
+ol,
+figure {
   margin: 0 0 10px 0;
 }
 
-* + p, * + ul, * + ol , * + figure {
+*+p,
+*+ul,
+*+ol,
+*+figure {
   margin-top: 10px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 0.67em 0;
 }
 
-* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+*+h1,
+*+h2,
+*+h3,
+*+h4,
+*+h5,
+*+h6 {
   margin-top: 0.67em;
 }
 
-a, .link {
+a,
+.link {
   color: blue;
   text-decoration: none;
 }
 
-a:hover, .link:hover {
+a:hover,
+.link:hover {
   text-decoration: underline;
   color: red;
 }
@@ -70,3 +88,23 @@ img {
   font-weight: 600;
 }
 
+.hover-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  border-radius: 20px;
+  font-size: 40px;
+  background-color: #00D053;
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+.search:hover {
+  color: black;
+  background-color: #ffffff;
+  text-decoration: none;
+}

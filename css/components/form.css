@@ -1,7 +1,7 @@
-/* Все что остаеться уже поправялть тут стили под прорэкт на котором мы работаем, Такого рода сообщения у себя в проэктк удалайте ;-) */ 
+
 .form {
   margin-bottom: 40px;
-  
+
 }
 
 .form-control {
@@ -40,6 +40,7 @@
   color: #999;
   border-color: #e5e5e5;
 }
+
 /*
  * Placeholder
  */
@@ -88,43 +89,75 @@
 /* Style modifier (`input`, `select` and `textarea`)
  ========================================================================== */
 
- /*
+/*
  * Error
  */
- .form-danger,
- .form-danger:focus {
-   color: #f0506e;
-   border-color: #f0506e;
- }
- /*
+.form-danger,
+.form-danger:focus {
+  color: #f0506e;
+  border-color: #f0506e;
+}
+
+/*
   * Success
   */
- .form-success,
- .form-success:focus {
-   color: #32d296;
-   border-color: #32d296;
- }
+.form-success,
+.form-success:focus {
+  color: #32d296;
+  border-color: #32d296;
+}
 
- .form-title {
+.form-title {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 23px;
   line-height: 38px;
   text-align: center;
   color: #333333;
   max-width: 245px;
- }
- 
- .input-title {
-   color: #B4B4B4;
+}
+
+.input-title {
+  color: #B4B4B4;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 20px;
- }
+}
 
- .hero-input {
-   border-color: transparent;
-   background-color: #F8F8F8;
-   border-radius: 5px;
-   height: 50px;
-   width: 280px;
- }
+.hero-input {
+  border-color: transparent;
+  background-color: #F8F8F8;
+  border-radius: 5px;
+  height: 50px;
+  width: 280px;
+}
+
+.footer-input {
+  border-color: transparent;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 52px;
+  width: 368px;
+  font-family: Brandon Grotesque -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  padding-left: 25px;
+}
+
+
+input[type="text"]::-webkit-input-placeholder {
+  color: #373F55;
+}
+
+input[type="text"]::-moz-placeholder {
+  color: #373F55;
+}
+
+.footer-input-title {
+  font-family: Brandon Grotesque -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #F8F8F8;
+  margin-bottom: 10px;
+
+}

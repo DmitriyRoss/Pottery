@@ -1,26 +1,25 @@
-
-
 .section-header {
     padding: 40px 70px;
     background-color: #343C4A;
-    
-}
-
-.Elena {
+  
+  }
+  
+  .Elena {
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-line-height: 29px;
-color: #ffffff;
-cursor: pointer;
-text-align: center;
-}
-
-.elena-image {
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .elena-image {
     width: 28px;
     height: 41px;
-padding-top: 10px;
-margin: 0;
-}
-
+    padding-top: 10px;
+    margin: 0;
+    display: inline-block;
+  }
+  

@@ -1,3 +1,54 @@
 .list {
   list-style-type: none;
 }
+
+.plans-list {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  color: #343C4A;
+}
+
+.plans-li {
+  margin-bottom: 30px;
+  max-width: 290px;
+}
+
+.plans-li:last-child {
+  margin-bottom: 45px;
+}
+
+.plans-li::before {
+  content: '-';
+  padding-right: 10px;
+}
+
+.list-contacts {
+  font-family: Brandon Grotesque -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.contacts-heading {
+  font-family: Brandon Grotesque -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.list-contacts {
+  padding-left: 40px;
+  position: relative;
+}
+
+.contacts-li {
+  margin-bottom: 30px;
+}
+
+.list-icon {
+  position: absolute;
+  left: 1px;
+}

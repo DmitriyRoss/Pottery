@@ -14,7 +14,7 @@
 
 .button:hover {
   text-decoration: none;
-  color: #333333;  
+  color: #333333;
 }
 
 .button-primary {
@@ -28,9 +28,10 @@
   text-transform: uppercase;
   width: 280px;
 }
+
 .button-primary:hover {
   border: 2px solid transparent;
-  border-color:  #00D053;
+  border-color: #00D053;
   background-color: #ffffff;
   color: #00D053;
 }
@@ -41,18 +42,27 @@
   color: #00D053;
   width: 100%;
 }
+
 .button-secondary:hover {
   border-color: #ffffff;
-  background-color: #00D053;  
+  background-color: #00D053;
   color: #ffffff;
 }
 
 .button-large {
   padding: 16px 32px;
 }
+
 .button-small {
   padding: 4px 8px;
 }
+
 .button-block {
   width: 100%;
+}
+
+.footer-button {
+  width: 206px;
+  height: 52px;
+  margin-left: 10px;
 }

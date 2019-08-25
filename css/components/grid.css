@@ -1,16 +1,16 @@
 .grid {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   margin: 0 -10px;
 }
 
 .grid-spacebetween {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.grid > * {
+.grid>* {
   padding: 10px;
 }
 
@@ -20,4 +20,53 @@
 
 .right {
   width: 30%;
+}
+
+.grid-image {
+  width: 360px;
+  height: 290px;
+
+}
+
+.gallery-item {
+  padding: 0;
+  position: relative;
+}
+
+.gallery-grid {
+  margin-top: 50px;
+}
+
+.grid-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(52, 60, 74, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.gallery-item:hover .grid-cover {
+  display: flex;
+}
+
+.grid-plans {
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.grid-plans:nth-child(2n) {
+  background-color: #ffffff;
+}
+
+.contacts-left {
+  width: 80%;
+}
+
+.contacts-right {
+  width: 20%;
 }

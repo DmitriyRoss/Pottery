@@ -1,3 +1,9 @@
 header=1h
 hero=1.5h
 techniques=1.5h
+gallery: 1h
+plans: 1h
+reviews: не доделано (15мин)
+contacts: 1h
+footer: 1h
+story: не доделано (30min)
