@@ -4,7 +4,7 @@
 
 .plans-list {
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Brandon Grotesque Regular';
   font-size: 15px;
   line-height: 26px;
   color: #343C4A;
@@ -25,14 +25,14 @@
 }
 
 .list-contacts {
-  font-family: Brandon Grotesque -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Brandon Grotesque Regular';
   font-size: 18px;
   line-height: 26px;
   color: #000000;
 }
 
 .contacts-heading {
-  font-family: Brandon Grotesque -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Brandon Grotesque Regular';
   font-size: 28px;
   line-height: 40px;
   color: #000000;
