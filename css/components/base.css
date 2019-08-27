@@ -123,17 +123,3 @@ img {
   color: #333333;
 }
 
-@media(min-width:320px) {
-  .width-1-1sm {
-    flex-basis: 100%;
-  }
-}
-
-@media(min-width:960px) {
-    .width30lg {
-      width: 30%;
-    }
-    .width70lg {
-      width: 70%;
-    }
-}
