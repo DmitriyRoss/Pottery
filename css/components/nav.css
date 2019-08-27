@@ -1,18 +1,17 @@
 .nav {
-    font-family: 'Brandon Grotesque Regular';
-    font-style: normal;
-    font-weight: 400;
-  }
-  
-  .nav-item {
-    font-size: 20px;
-    line-height: 29px;
-    color: #ffffff;
-    cursor: pointer;
-    padding-right: 40px;
-  }
-  
-  .nav-item:last-child {
-    padding-right: 0;
-  }
-  
+  font-family: 'Brandon Grotesque Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav-item {
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  cursor: pointer;
+  padding-right: 40px;
+}
+
+.nav-item:last-child {
+  padding-right: 0;
+}
