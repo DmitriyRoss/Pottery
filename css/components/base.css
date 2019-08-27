@@ -62,7 +62,7 @@ a,
 
 a:hover,
 .link:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: red;
 }
 
@@ -95,11 +95,13 @@ img {
 }
 
 .search {
-  border-radius: 20px;
-  font-size: 40px;
+  border-radius: 50%;
+  font-size: 20px;
   background-color: #00D053;
   color: #ffffff;
   text-decoration: none;
+  display: inline-block;
+  padding: 20px;
 
 }
 
@@ -107,4 +109,31 @@ img {
   color: black;
   background-color: #ffffff;
   text-decoration: none;
+}
+
+.elena-dropdown {
+  display: inline-block;
+}
+
+.dropdown-li {
+  list-style-type: none;
+}
+
+.dropdown-a {
+  color: #333333;
+}
+
+@media(min-width:320px) {
+  .width-1-1sm {
+    flex-basis: 100%;
+  }
+}
+
+@media(min-width:960px) {
+    .width30lg {
+      width: 30%;
+    }
+    .width70lg {
+      width: 70%;
+    }
 }

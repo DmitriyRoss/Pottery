@@ -10,7 +10,7 @@
   justify-content: space-between;
 }
 
-.grid>* {
+.grid > * {
   padding: 10px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .grid-image {
-  width: 360px;
+  width: 100%;
   height: 290px;
 
 }
