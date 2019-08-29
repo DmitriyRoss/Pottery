@@ -103,7 +103,7 @@ img {
           justify-content: center;
 }
 
-.search {
+.icon-search {
   border-radius: 50%;
   font-size: 20px;
   background-color: #00D053;
@@ -131,3 +131,4 @@ img {
 .dropdown-a {
   color: #333333;
 }
+

@@ -33,7 +33,8 @@
 .grid-image {
   width: 100%;
   height: 290px;
-
+  display: block;
+  position: relative;
 }
 
 .gallery-item {
@@ -62,10 +63,22 @@
 }
 
 
+
 .gallery-item:hover .grid-cover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; 
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .grid-plans {

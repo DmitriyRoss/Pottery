@@ -163,6 +163,11 @@
   padding-top: 140px;
 }
 
+
+.gallery-image {
+  margin-bottom: 0;
+}
+
 .section-plans {
   padding: 120px 160px;
 }
@@ -197,6 +202,14 @@
   padding-top: 140px;
   padding-bottom: 120px;
   background-color: #F8F8F8;
+}
+
+.section-reviews .section-subtitle {
+  padding-bottom: 50px;
+}
+
+.section-plans .section-subtitle {
+  padding-bottom: 50px;
 }
 
 .card-reviews-top {
