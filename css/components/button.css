@@ -70,3 +70,15 @@
   height: 52px;
   margin-left: 10px;
 }
+
+@media(min-width:320px) {
+  .footer-button{
+  margin: auto;
+  }
+}
+
+@media(min-width:640px) {
+  .footer-button {
+    margin-left: 10px;
+  }
+}

@@ -388,3 +388,41 @@ body {
   margin: 0 auto;
   
 }
+
+@media(min-width:320px) {
+  .section-plans {
+    padding: 0;
+  }
+
+  .section-contacts {
+    padding: 0;
+  }
+  .section-story {
+    padding: 0;
+  }
+  .section-hero {
+   padding: 0 30px;
+  }
+}
+
+@media(min-width:960px) {
+  .section-body {
+    margin-right: 30px;
+  }
+}
+
+@media(min-width:1200px) {
+  .section-contacts {
+    padding-top: 140px;
+    padding-bottom: 120px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  .section-plans {
+    padding: 120px 160px;
+  }
+  .section-story {
+    padding: 120px 70px;
+  }
+
+}

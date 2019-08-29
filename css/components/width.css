@@ -29,3 +29,27 @@
 .width-4-5 {
   width: 80%;
 }
+
+@media(min-width:640px) {
+  .width-1-2md {
+    width: 50%;
+  }
+}
+
+@media(min-width:960px) {
+  .width-1-2lg {
+    width: 50%;
+  }
+  .width-1-3lg {
+    width: 33.3%;
+  }
+}
+
+@media(min-width:1200px) {
+  .width-1-4xlg {
+    width: 25%;
+  }
+  .width-1-3xlg {
+    width: 33.33%;
+  }
+}

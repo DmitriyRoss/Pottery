@@ -199,3 +199,10 @@ input[type="text"]::-moz-placeholder {
   margin-bottom: 10px;
 
 }
+
+@media(min-width: 320px) {
+  .hero-input {
+    width: auto;
+  }
+}
+

@@ -97,3 +97,36 @@
 .contacts-right {
   width: 20%;
 }
+
+@media(min-width:320px) {
+  .grid {
+    flex-direction: column;
+  }
+  .contacts-right {
+    width: auto;
+  }
+  .grid-plans {
+    margin-bottom: 20px;
+  }
+}
+
+@media(min-width:640px) {
+  .grid {
+    flex-direction: row;
+  }
+}
+
+@media(min-width:1200px) {
+  .grid-plans {
+    margin-bottom: 0;
+  }
+  
+  
+ 
+}
+
+@media(min-width:1400px) {
+  .contacts-right {
+    width: 20%;
+  }
+}
