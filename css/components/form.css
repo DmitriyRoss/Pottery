@@ -169,7 +169,15 @@
   height: 50px;
   width: 280px;
 }
-
+[type="date"] {
+  background:#fff url(../../images/calendar.png) 99% no-repeat;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
 .footer-input {
   border-color: transparent;
   background-color: #ffffff;
