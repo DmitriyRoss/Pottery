@@ -403,11 +403,31 @@ body {
   .section-hero {
    padding: 0 30px;
   }
+  .section-body {
+    padding: 0; 
+  }
+  .section-hero-title {
+    font-size: 35px;
+  }
+}
+
+@media(min-width:640px) {
+  .section-hero-title {
+    font-size: 45px;
+  }
 }
 
 @media(min-width:960px) {
   .section-body {
     margin-right: 30px;
+  }
+  .section-body {
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+
+  .section-hero-title {
+    font-size: 65px;
   }
 }
 

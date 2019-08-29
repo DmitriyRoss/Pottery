@@ -152,6 +152,7 @@
   text-align: center;
   color: #333333;
   max-width: 245px;
+  font-weight: 600;
 }
 
 .input-title {
@@ -204,5 +205,13 @@ input[type="text"]::-moz-placeholder {
   .hero-input {
     width: auto;
   }
+  .form-title {
+    margin: 0 auto;
+  }
 }
 
+@media(min-width:640px) {
+  .hero-input {
+    width: 100%;
+  }
+}
